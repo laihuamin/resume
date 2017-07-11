@@ -3,7 +3,7 @@ update_time: '2017.7.10'
 name: 来铧敏
 nickname: 
 meta_content: 大三前端狗，HR姐姐们把我招到碗里去吧
-keywords: xiao555,前端,工作,简历
+keywords: 前端,工作,简历
 ga_id: 'UA-92595311-1'
 age: 21岁
 gender: 男
@@ -14,8 +14,8 @@ english_level: CET-4
 blog: http://www.51nannan.cn/
 github: https://github.com/laihuamin
 website:
-online: https://xiao555.github.io/Resume/
-print: https://xiao555.github.io/Resume/print.html
+online: https://laihuamin.github.io/resume/
+print: https://来铧敏.github.io/resume/print.html
 apply_to_position: Web前端实习生
 contact: # 联系方式
   -
@@ -31,12 +31,18 @@ contact: # 联系方式
     name: PhoneNumber
     value: '13777836051'
 honor: # 奖项荣誉
+  -
+    date: 2017.3
+    name: web网页前端设计大赛三等奖（校级）
+  -
+    date: 2015.9-2017.5
+    name: 大学生创业大赛校级项目
 exper: # 实习经历
   -
     date: 2017.2 - 至今
-    company: 传智传媒
+    company: 传智传媒有限公司
     desc: !!md |
-      公司地址为：北信源互创空间，下沙经济开发区2号大街
+      地址——北信源互创空间，下沙经济开发区2号大街
       公司业务逻辑：java+jsp
       负责模块：前端页面开发及js复杂交互  
 tech: # 技能点
@@ -62,7 +68,7 @@ tech: # 技能点
     name: jquery
     percentage: 50%
   -
-    name: react&Angular
+    name: react&ng
     percentage: 20%      
 experience: # 项目经验
   -
@@ -73,7 +79,7 @@ experience: # 项目经验
         date: 2017.4-2017.5
         img:
         website:
-        source_code: https://github.com/xiao555/Webjucks
+        source_code: https://github.com/laihuamin/eleme.github.io
         des: !!md |
           1、技术栈：vue-cli+eslint+webpack+vue-router+vue-resource+stylus+es6 
           2、采用的是vue的1.0版本，SPA单页应用，前后端分离，webpack build to dist 
@@ -84,7 +90,7 @@ experience: # 项目经验
         date: 2017.2-2017.7
         img:
         website:
-        source_code: https://github.com/xiao555/nunjucks-extend-loader
+        source_code: https://github.com/laihuamin/jsExample
         des: !!md |
           1、自己在学习前端过程中，每遇到一个有趣的JavaScript的实例，就把他加入到一个目录中。
           2、前端学习至今，已经做了83个项目实例。
@@ -95,7 +101,7 @@ experience: # 项目经验
         date: 2017.5-至今
         img:
         website:
-        source_code: https://github.com/xiao555/Resume-it
+        source_code: https://github.com/laihuamin/vue-music
         des: !!md |
           1、SPA单页应用，前后端分离，webpack build to dist
           2、axios做ajax请求
