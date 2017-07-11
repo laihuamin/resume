@@ -72,11 +72,21 @@
     </div>
     <div class="main">
         <ul class="main-info">
-            <li class="skill">
+            <li>
                 <dt><i class="fa fa-bookmark"></i>Skill. 技能清单</dt>
-                {% for item in skill %}
+                {% for exp in skill %}
+                <h2 class="exp-title">{{exp.section}}</h2>
                 <ul class="exp">
-                  <li>{{ item.des |safe }}</li>
+                    {% for item in exp.project %}
+                    <li>
+                        <div class="circle"></div>
+                        <h4>{{ item.name }}
+                        </h4>
+                        <div class="clearfix">
+                          {{ item.des |safe }}
+                        </div>
+                    </li>
+                    {% endfor %}
                 </ul>
                 {% endfor %}
             </li>

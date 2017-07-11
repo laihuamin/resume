@@ -36,12 +36,9 @@ exper: # 实习经历
     date: 2017.2 - 至今
     company: 传智传媒
     desc: !!md |
-      前五个月负责前端部分的开发, 最大程度的还原设计稿，完成页面交互，后面开始负责后端PHP开发
-  -
-    date: 2017.7 - 2017.9
-    company: 腾讯
-    desc: !!md |
-      即将开始的腾讯暑期实习
+      公司地址为：北信源互创空间，下沙经济开发区2号大街
+      公司业务逻辑：java+jsp
+      负责模块：前端页面开发及js复杂交互  
 tech: # 技能点
   -
     name: HTML/CSS
@@ -50,110 +47,129 @@ tech: # 技能点
     name: JavaScript
     percentage: 60%
   -
-    name: PHP
+    name: vueJS
     percentage: 50%
   -
     name: Git
     percentage: 60%
   -
     name: Node.js
-    percentage: 40%
+    percentage: 30%
+  -
+    name: WebPack
+    percentage: 30%
+  -
+    name: jquery
+    percentage: 50%
+  -
+    name: react&Angular
+    percentage: 20%      
 experience: # 项目经验
   -
     section: 个人项目
     project:
       -
-        name: Webjucks
-        date: 2017.2
+        name: 饿了么webapp
+        date: 2017.4-2017.5
         img:
         website:
         source_code: https://github.com/xiao555/Webjucks
         des: !!md |
-          寒假自己写了个多页应用脚手架，数据模板分离的思想，webpack打包，开发过程中主要是研究了怎么配置webpack，怎么实时开发浏览结果，怎么安排项目结构。
+          1、技术栈：vue-cli+eslint+webpack+vue-router+vue-resource+stylus+es6 
+          2、采用的是vue的1.0版本，SPA单页应用，前后端分离，webpack build to dist 
+          3、better-scroll：实现页面滚动、页面联动效果
+          4、vue-router：进行路由跳转
       -
-        name: nunjucks-extend-loader
-        date: 2017.2
+        name: 83个JS原生实例
+        date: 2017.2-2017.7
         img:
         website:
         source_code: https://github.com/xiao555/nunjucks-extend-loader
         des: !!md |
-          开发框架的过程中，自己写了个loader，已发布在npm上。用 Node的fs模块递归创建不存在的目录，最后通过回调函数完成最后一步copy文件的动作。
+          1、自己在学习前端过程中，每遇到一个有趣的JavaScript的实例，就把他加入到一个目录中。
+          2、前端学习至今，已经做了83个项目实例。
+          3、实例中有轮播图、tab切换、二级导航栏、以及很多复杂的表单验证。
+          4、熟悉使用了flex布局，grid布局以及传统的瀑布流
       -
-        name: Resume-it
-        date: 2017.2
+        name: VUE开发音乐播放器
+        date: 2017.5-至今
         img:
         website:
         source_code: https://github.com/xiao555/Resume-it
         des: !!md |
-          知乎上看大家的简历，感觉模板很多，但个人信息是不变的，所以我就想搞一个数据模板分离的简历生成器，这样无论换模板还是改数据都非常方便。暂时 42 star，19 fork，有人用是最好的。
-      -
-        name: Blog
-        date: 2017.4-至今
-        img:
-        website:
-        source_code: https://github.com/xiao555/New-Blog
-        des: !!md |
-          用来练手Vue的项目，基于Koa2 + Vue2 + MongoDB + Redis 搭建的 前后端分离 + RESTful API + SSR 的博客系统
+          1、SPA单页应用，前后端分离，webpack build to dist
+          2、axios做ajax请求
+          3、使用了 Vuex 管理组件间的状态，实现非父子组件之间的通信
+          4、better-scroll：实现页面滚动、页面联动效果
+          5、vue-lazyer：实现图片的懒加载
+          6、vue-router：进行路由跳转
   -
     section: 实习项目
     project:
       -
-        name: SSRGA
-        date: '2016.7'
-        img: http://ojxrgrrxt.bkt.clouddn.com/ssrga.jpg
-        website: http://www.ssrga.com/
+        name: 玩课网平台
+        date: '2017.3 - 至今'
+        img: 
+        website: http://www.wanke001.com/
         source_code:
         des: !!md |
-          这是我接手的第一个项目，为了适应团队框架完成页面我快速学习了模板引擎Nunjucks，CSS预处理器Stylus，数据层YAML语法等等。
-          然后在实践中巩固，最终一个周左右实现了这个项目的前端部分。
+          1、业务逻辑：jsp+java
+          2、负责首页页面（部分）、课程页面以及教师工作平台页面更新（未上线）开发
+          3、上述开发过程中运用了BootStrap框架、js交互（如登陆验证，页面局部更新）、熟悉了SVN的使用
       -
-        name: Clubfit
-        date: '2016.8'
-        img: http://ojxrgrrxt.bkt.clouddn.com/clubfit.jpg
-        website: http://clubfit.vwmdev.com/
+        name: 拱墅区项目申报平台（处于测试阶段）
+        date: '2017.5 - 至今'
+        img: 
+        website: 
         source_code:
         des: !!md |
-          接手这个项目时已经对团队的框架比较熟悉了，在这个项目中锻炼了页面编写能力，比如首页头部的滚动隐藏，规范了表单，Grid的布局，自定义表单控件，弹出层等等。遇到比较难的是其中的一个课程表，习惯性的横向安排数据，发现由于每一天的课程数量不定，很难处理，改成竖向按天安排数据就很舒服了。
-          每天的代码leader会review，我再相应的做出修改，整个过程下来收获很多，是一次蜕变。
+          1、业务逻辑：jsp+java
+          2、由于是政府项目，通过学习，清楚了如何兼容IE8以及页面性能的优化
+          3、运用了BootStrap框架、js交互（如登陆验证，页面局部更新）、熟悉了SVN的使用
       -
-        name: taldumande
-        date: '2016.9'
-        img: http://ojxrgrrxt.bkt.clouddn.com/taldumande.jpg
-        website: https://www.taldumande.org.au/
+        name: 滨江园区平台（移动端）
+        date: '2017.4'
+        img: 
+        website: 
         source_code:
         des: !!md |
-          这是项目前端已经能完全独立完成了，设计也有很多有趣的地方，像header，footer部分两种颜色，为了不影响其它布局也比较方便用伪元素解决。没有很难的地方，细节很多，也比较考验布局能力。
-      -
-        name: workforceprofessionals
-        date: '2016.10'
-        img: http://ojxrgrrxt.bkt.clouddn.com/workforceprofessionals.jpg
-        website: https://workforceprofessionals.org/
-        source_code:
-        des: !!md |
-          这个项目我负责后端，跟leader语音交流了一下后端框架的用法，研究了两三天大体了解了基于wordpress的后端的工作方式，于是用边写边学的方式完成了这个项目。我做的就是写项目有关的逻辑，数据的导入获取等等。
-          另外，首页的下面的Twitter部分是我写的，之前获取tweet的方法需要各种key麻烦还有问题，我查了好久找到一个相关的js库Twitter-Post-Fetcher，使用简单。
-      -
-        name: innerdoor
-        date: 2016.11 - 至今
-        img: http://ojxrgrrxt.bkt.clouddn.com/innerdoor.jpg
-        website: http://innerdoor.vwmdev.com/
-        source_code:
-        des: !!md |
-          这个项目相当于一个会员系统，数据都是通过API来获取的，有大量的表格，需要从API获取大量的数据，处理数据，渲染到前端页面上。
-          一开始我写了一堆if-else，数据跟表单一一对应，后来发现这样做代码量很大，而且不够灵活。后来重新安排数据结构，用label作为key值，前端表单label作为value值，通过模板引擎跟后端对应起来，这样既大大减少了代码量，也提高了灵活性。
+          1、此项目是由于师兄毕业答辩，半道接手
+          2、从项目中学到flexible.js和rem处理兼容问题
+          3、部分页面的制作用到了flex布局、处理页面的JS交互
+      
 skill: # 技能清单
+  -
+    section: 前端
+    project:
+      -
+        name: HTML&CSS
+        des: !!md |
+          能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局
+          熟悉 Less Sass PostCSS Autoprefixer 等CSS预处理和模块化工具
+          熟悉HTML5的canvas的使用、熟悉CSS3的transform属性
+      -
+        name: JavaScript
+        des: !!md |
+          熟悉原生Javascript，能脱离 jQuery 等类库编码
+          能运用模块化、面向对象的方式编程
+          熟练使用 VUE jQuery 、了解 React AngularJS
+      -
+        name: 其他
+        des: !!md |
+          熟悉 Webpack Gulp 等前端自动化工具
+          了解前端安全、性能优化方面的一些知识
+  -
+    section: 后端
+    project:
+      -
+        name: Node.js
+        des: !!md |
+          了解 Node.js 的开发，使用 MongoDB 和 Redis 做数据存储和缓存，使用 pm2 和 Docker 部署 
+  -
+    section: 其他属性
+    project:
       -
         des: !!md |
-          能够用 HTML + CSS 编写语义化的代码，完成较复杂的布局，熟悉Stylus、PostCss 等css预处理、后处理工具
-      -
-        des: !!md |
-          在Blog项目中熟悉了 Vue，写过Vue的双向数据绑定[Demo](https://github.com/xiao555/Two-way-Data-Bindings)， 使用了 ES6、7 的新语法，了解 Node.js, jQuery.
-      -
-        des: !!md |
-          了解 Git Webpack Gulp Browsersync 等开发工具
-      -
-        des: !!md |
-          熟悉 Koa, Express, MongoDB, Mysql 能搭建简单的后端项目，租了Digital Ocean 的VPS 部署网站
-
-
+          简书、知乎重度用户，喜欢在简书上分享一点学习笔记。
+          喜爱看书、敲代码、刷算法题、狼人迷，老狼一枚                   
 ---
