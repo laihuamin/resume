@@ -10,12 +10,12 @@ gender: 男
 school: 杭州电子科技大学
 profession: 机械工程
 grade: 大三
-english_level: CET-4
-blog: http://www.51nannan.cn/
+english_level: CET-6
+blog: http://laihuamin.github.io
 github: https://github.com/laihuamin
 website:
-online: https://laihuamin.github.io/resume/dist/
-print: https://来铧敏.github.io/resume/print.html
+online: https://51nannan.cn/resume/index.html
+print: https://www.51nannan.cn/resume/print.html
 apply_to_position: Web前端实习生
 contact: # 联系方式
   -
@@ -176,6 +176,6 @@ skill: # 技能清单
     project:
       -
         des: !!md |
-          简书、知乎重度用户，喜欢在简书上分享一点学习笔记。
+          简书、知乎、leetcode重度用户，喜欢在简书上分享一点学习笔记。
           喜爱看书、敲代码、刷算法题、狼人迷，老狼一枚                   
 ---

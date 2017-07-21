@@ -29,7 +29,7 @@ const paths = {
 gulp.task('fonts', function() {
   return gulp.src([
       'node_modules/font-awesome/fonts/fontawesome-webfont.*'])
-    .pipe(gulp.dest('dist/fonts/'))
+    .pipe(gulp.dest('resume/fonts/'))
     .pipe($.size())
 })
 
@@ -41,7 +41,7 @@ gulp.task('scripts', () => {
     ])
     .pipe($.uglify())
     .pipe($.concat({ path: 'scripts.js', stat: { mode: 0666} }))
-    .pipe(gulp.dest('dist/assets/'))
+    .pipe(gulp.dest('resume/assets/'))
     .pipe($.size())
 })
 
@@ -56,7 +56,7 @@ gulp.task('styles', () => {
 			cascade: false
 		}))
     .pipe($.concat({ path: 'styles.css', stat: { mode: 0666} }))
-    .pipe(gulp.dest('dist/assets/'))
+    .pipe(gulp.dest('resume/assets/'))
     .pipe($.size())
 })
 
@@ -72,17 +72,17 @@ gulp.task('html', () => {
   return gulp.src(['template/index.html', 'template/print.html'])
     .pipe($.nunjucks.compile(context))
     .pipe($.htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('resume'))
     .pipe($.size())
 })
 
 gulp.task('default', ['scripts', 'styles', 'fonts','html'], () => {
   if (isProd) return
   browserSync.init({
-    server: "./dist"
+    server: "./resume"
   })
   gulp.watch(paths.scripts, ['scripts'])
   gulp.watch(paths.styles, ['styles'])
   gulp.watch(['template/*.html', 'data.yaml'], ['html'])
-  gulp.watch(["dist/*.html", "dist/assets/*.*"]).on('change', browserSync.reload)
+  gulp.watch(["resume/*.html", "resume/assets/*.*"]).on('change', browserSync.reload)
 })
