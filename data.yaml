@@ -33,18 +33,25 @@ contact: # 联系方式
 honor: # 奖项荣誉
   -
     date: 2017.3
-    name: web网页前端设计大赛三等奖（校级）
+    name: web网页前端设计大赛二等等奖（校级）
   -
     date: 2015.9-2017.5
     name: 大学生创业大赛校级项目
 exper: # 实习经历
   -
-    date: 2017.2 - 至今
-    company: 传智传媒有限公司
+    date: 2017.2 - 2017.7
+    company: 杭州传智传媒有限公司
     desc: !!md |
       地址——北信源互创空间，下沙经济开发区2号大街
       公司业务逻辑：java+jsp
-      负责模块：前端页面开发及js复杂交互  
+      负责模块：前端页面开发及js复杂交互
+  - 
+    date: 2017.7 - 至今
+    company: 杭州贝贝网络有限公司
+    desc: !!md |
+      地址——九和路东方电子商务园
+      公司业务逻辑：jqeury + vue
+      负责模块：vue开发运营中心，jquery开发贝贝M站h5页面
 tech: # 技能点
   -
     name: HTML/CSS
@@ -69,7 +76,13 @@ tech: # 技能点
     percentage: 50%
   -
     name: react&ng
-    percentage: 20%      
+    percentage: 30%  
+  -
+    name: TypeScript
+    percentage: 50%
+  -
+    name: Python
+    percentage: 40% 
 experience: # 项目经验
   -
     section: 个人项目
@@ -82,9 +95,7 @@ experience: # 项目经验
         source_code: https://github.com/laihuamin/eleme.github.io
         des: !!md |
           1、技术栈：vue-cli+eslint+webpack+vue-router+vue-resource+stylus+es6 
-          2、采用的是vue的1.0版本，SPA单页应用，前后端分离，webpack build to dist 
-          3、better-scroll：实现页面滚动、页面联动效果
-          4、vue-router：进行路由跳转
+          2、better-scroll：实现页面滚动、页面联动效果，vue-router：进行路由跳转。
       -
         name: 83个JS原生实例
         date: 2017.2-2017.7
@@ -92,10 +103,8 @@ experience: # 项目经验
         website:
         source_code: https://github.com/laihuamin/jsExample
         des: !!md |
-          1、自己在学习前端过程中，每遇到一个有趣的JavaScript的实例，就把他加入到一个目录中。
-          2、前端学习至今，已经做了83个项目实例。
-          3、实例中有轮播图、tab切换、二级导航栏、以及很多复杂的表单验证。
-          4、熟悉使用了flex布局，grid布局以及传统的瀑布流
+          1、前端学习至今，已经做了83个项目实例，有轮播图、tab切换、二级导航栏、以及很多复杂的表单验证
+          2、熟悉使用了flex布局，grid布局以及传统的瀑布流
       -
         name: VUE开发音乐播放器
         date: 2017.5-至今
@@ -103,12 +112,43 @@ experience: # 项目经验
         website:
         source_code: https://github.com/laihuamin/vue-music
         des: !!md |
-          1、SPA单页应用，前后端分离，webpack build to dist
-          2、axios做ajax请求
-          3、使用了 Vuex 管理组件间的状态，实现非父子组件之间的通信
-          4、better-scroll：实现页面滚动、页面联动效果
-          5、vue-lazyer：实现图片的懒加载
-          6、vue-router：进行路由跳转
+          1、SPA单页应用，前后端分离，axios做ajax请求
+          2、使用了 Vuex 管理组件间的状态，实现非父子组件之间的通信
+          3、better-scroll：实现页面滚动、页面联动效果
+          4、vue-lazyer：实现图片的懒加载,vue-router：进行路由跳转
+      -
+        name: koa-demos
+        date: 2017.6-2017.7
+        img:
+        website:
+        source_code: 
+        des: !!md |
+          主要是使用koa写一点后端的中间件,学习使用koa-router，用koa在服务器上部署一些静态的mock数据
+      -
+        name: h5运营日报
+        date: 2017.7-2017.8
+        img:
+        website:
+        source_code: 
+        des: !!md |
+          1、这次主要使用jquery做的，运用了swiper分页插件,使用了animate动画库
+          2、可视化的一份运营日报，后期还打算用vue和react都尝试一遍
+      -
+        name: react-demos
+        date: 2017.6-至今
+        img:
+        website: 
+        source_code: 
+        des: !!md |
+          主要是学习react的过程中，熟悉react的一些特性做的小demo,后期还会用react重构一遍musicApp
+      -
+        name: webpack-demos
+        date: 2017.6-2017.7
+        img:
+        website: 
+        source_code: 
+        des: !!md |
+          学习webpack的原理,webpack是如何配置的,webpack的plugin的使用
   -
     section: 实习项目
     project:
@@ -119,9 +159,8 @@ experience: # 项目经验
         website: http://www.wanke001.com/
         source_code:
         des: !!md |
-          1、业务逻辑：jsp+java
-          2、负责首页页面（部分）、课程页面以及教师工作平台页面更新（未上线）开发
-          3、上述开发过程中运用了BootStrap框架、js交互（如登陆验证，页面局部更新）、熟悉了SVN的使用
+          1、负责首页页面（部分）、课程页面以及教师工作平台页面更新（未上线）开发
+          2、上述开发过程中运用了BootStrap框架、js交互（如登陆验证，页面局部更新）、熟悉了SVN的使用
       -
         name: 拱墅区项目申报平台（处于测试阶段）
         date: '2017.5 - 至今'
@@ -129,9 +168,8 @@ experience: # 项目经验
         website: 
         source_code:
         des: !!md |
-          1、业务逻辑：jsp+java
-          2、由于是政府项目，通过学习，清楚了如何兼容IE8以及页面性能的优化
-          3、运用了BootStrap框架、js交互（如登陆验证，页面局部更新）、熟悉了SVN的使用
+          1、由于是政府项目，通过学习，清楚了如何兼容IE8以及页面性能的优化
+          2、运用了BootStrap框架、js交互（如登陆验证，页面局部更新）、熟悉了SVN的使用
       -
         name: 滨江园区平台（移动端）
         date: '2017.4'
@@ -139,10 +177,28 @@ experience: # 项目经验
         website: 
         source_code:
         des: !!md |
-          1、此项目是由于师兄毕业答辩，半道接手
-          2、从项目中学到flexible.js和rem处理兼容问题
+          从项目中学到rem布局，处理兼容问题，部分页面的制作用到了flex布局、处理页面的JS交互
+      -
+        name: 贝贝M站（移动端）
+        date: '2017.7 - 至今'
+        img: 
+        website: 
+        source_code:
+        des: !!md |
+          1、进入贝贝网络公司，主要负责的项目
+          2、从项目中学到图片上传模块，性能打点，分页组件的编写等业务逻辑方面的知识
           3、部分页面的制作用到了flex布局、处理页面的JS交互
-      
+          4、学习项目的整个流程，如何与后端联调，如何发布预更新。
+          5、如何用charls等调试工具，一些性能优化，如滚动加载等
+      -
+        name: 运营中心
+        date: '2017.7 - 至今'
+        img: 
+        website: 
+        source_code:
+        des: !!md |
+          1、进入贝贝网络公司，负责的第二个项目，该项目是用vue架构的，是一个内部的运营平台
+          2、部分页面的制作用到了flex布局、处理页面的JS交互,主要负责新的业务需求，以及一些bug的修复
 skill: # 技能清单
   -
     section: 前端
@@ -151,31 +207,30 @@ skill: # 技能清单
         name: HTML&CSS
         des: !!md |
           能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局
-          熟悉 Less Sass PostCSS Autoprefixer 等CSS预处理和模块化工具
+          熟悉 stylus Less 等CSS预处理和模块化工具
           熟悉HTML5的canvas的使用、熟悉CSS3的transform属性
       -
         name: JavaScript
         des: !!md |
           熟悉原生Javascript，能脱离 jQuery 等类库编码
-          能运用模块化、面向对象的方式编程
-          熟练使用 VUE jQuery 、了解 React AngularJS
+          了解JS模块化、面向对象的方式编程、ES6新特性
+          熟练使用 VUE jQuery、了解 React AngularJS typescript
       -
         name: 其他
         des: !!md |
-          熟悉 Webpack Gulp 等前端自动化工具
-          了解前端安全、性能优化方面的一些知识
+          熟悉 Webpack Gulp 等前端自动化工具，了解前端安全、性能优化、http缓存
   -
     section: 后端
     project:
       -
         name: Node.js
         des: !!md |
-          了解 Node.js 的开发，使用 MongoDB 和 Redis 做数据存储和缓存，使用 pm2 和 Docker 部署 
+          了解 Node.js 的开发，使用 express，koa和pm2 部署项目,写过python爬知乎数据。
   -
     section: 其他属性
     project:
       -
         des: !!md |
-          简书、知乎、leetcode重度用户，喜欢在简书上分享一点学习笔记。
+          简书、知乎、leetcode重度用户，喜欢写博客，喜欢读源码（Vue、underscore、jq）。
           喜爱看书、敲代码、刷算法题、狼人迷，老狼一枚                   
 ---
