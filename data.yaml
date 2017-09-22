@@ -9,14 +9,14 @@ age: 21岁
 gender: 男
 school: 杭州电子科技大学
 profession: 机械工程
-grade: 大三
+grade: 大四
 english_level: CET-6
 blog: http://laihuamin.github.io
 github: https://github.com/laihuamin
 website:
 online: https://51nannan.cn/resume/index.html
 print: https://www.51nannan.cn/resume/print.html
-apply_to_position: Web前端实习生
+apply_to_position: Web前端校招生
 contact: # 联系方式
   -
     icon: fa-envelope
